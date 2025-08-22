@@ -6,6 +6,7 @@ body {
     line-height: 0.666;
     letter-spacing: 2%;
     
+    
 
 }
 
@@ -20,7 +21,6 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: 12px;
-    font-weight: regular;
     line-height: 0.75;
     letter-spacing: 4%;
 }
@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 .address-link
 {
     text-decoration: none;
+    font-style: normal;
 }
 
 .first-section {
@@ -77,14 +78,12 @@ h1 {
     font-size: 56px;
     line-height: 0.933;
     letter-spacing: 2%;
-    font-weight: 700;
 }
 
 .second-section-title {
     font-size: 36px;
         line-height: 0.9;
         letter-spacing: 2%;
-        font-weight: 700;
 }
 
 .second-section-list-title {
@@ -98,28 +97,24 @@ h1 {
     font-size: 20px;
         line-height: 0.8333;
         letter-spacing: 2%;
-        font-weight: 700;
 }
 
 .third-section-list-title {
     font-size: 24px;
         line-height: 1.2;
         letter-spacing: 2%;
-        font-weight: medium;
 }
 
 .forth-section-title {
     font-size: 36px;
         line-height: 0.9;
         letter-spacing: 2%;
-        font-weight: 700;
 }
 
 .forth-section-list-title {
     font-size: 24px;
         line-height: 1.2;
         letter-spacing: 2%;
-        font-weight: medium;
 }
 
 .button {
@@ -128,7 +123,6 @@ color: #FFFFFF;
 font-size: 16px;
 line-height: 0.6666;
 letter-spacing: 4%;
-font-weight: medium;
 }
 
 .footer {
