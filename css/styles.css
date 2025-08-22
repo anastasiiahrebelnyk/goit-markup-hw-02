@@ -1,25 +1,44 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: 2E2F42;
-    background-color: FFFFFF;
-    list-style-type: none;
-    text-decoration: none;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+  
     
 
 }
 
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:focus {
+    color: #4D5AE5;
+}
+
+a:active {
+    color: #4D5AE5;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    color: 2E2F42;
+    color: #2E2F42;
 }
 
 .logo {
     text-transform: uppercase;
     text-decoration: none;
-    color: 2E2F42
+    color: #2E2F42
 }
 
 .logo-name {
-    color: 4D5AE5;
+    color: #4D5AE5;
 }
 
 .nav {
@@ -27,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
     text-decoration: none;
 }
+
+
 
 .address {
     text-decoration: none;
@@ -39,14 +60,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .first-section {
-background-color: 2E2F42;
+background-color: #2E2F42;
 }
 
 h1 {
-    color: FFFFFF;
+    color: #FFFFFF;
 }
 
 .button {
-background-color: 4D5AE5;
-color: FFFFFF;
+background-color:#4D5AE5;
+color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
