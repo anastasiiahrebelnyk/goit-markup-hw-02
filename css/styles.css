@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 .address {
     text-decoration: none;
     list-style-type: none;
+    font-style: normal;
 }
 
 .address-link:hover, .address-link:focus {
@@ -201,7 +202,7 @@ font-weight: 500;
 .button:hover, .button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
-    cursor: pointer;
+    cursor: pointer;}
 
 .footer {
     background-color: #2e2f42;
@@ -209,7 +210,7 @@ font-weight: 500;
 }
 
 .logo-name-footer {
-  color: #f4f4fd;
+color: #f4f4fd;
 }
 
 .footer-text {
