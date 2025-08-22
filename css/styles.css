@@ -2,7 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
-  
+    font-size: 16px;
+    line-height: 0.666;
+    letter-spacing: 2%;
     
 
 }
@@ -17,6 +19,10 @@ ol {
 a {
     text-decoration: none;
     color: inherit;
+    font-size: 12px;
+    font-weight: regular;
+    line-height: 0.75;
+    letter-spacing: 4%;
 }
 
 a:hover, a:focus {
@@ -67,9 +73,62 @@ h1 {
     color: #FFFFFF;
 }
 
+.first-section-title {
+    font-size: 56px;
+    line-height: 0.933;
+    letter-spacing: 2%;
+    font-weight: 700;
+}
+
+.second-section-title {
+    font-size: 36px;
+        line-height: 0.9;
+        letter-spacing: 2%;
+        font-weight: 700;
+}
+
+.second-section-list-title {
+    font-size: 24px;
+        line-height: 1.2;
+        letter-spacing: 2%;
+        font-weight: medium;
+}
+
+.third-section-title {
+    font-size: 20px;
+        line-height: 0.8333;
+        letter-spacing: 2%;
+        font-weight: 700;
+}
+
+.third-section-list-title {
+    font-size: 24px;
+        line-height: 1.2;
+        letter-spacing: 2%;
+        font-weight: medium;
+}
+
+.forth-section-title {
+    font-size: 36px;
+        line-height: 0.9;
+        letter-spacing: 2%;
+        font-weight: 700;
+}
+
+.forth-section-list-title {
+    font-size: 24px;
+        line-height: 1.2;
+        letter-spacing: 2%;
+        font-weight: medium;
+}
+
 .button {
 background-color:#4D5AE5;
 color: #FFFFFF;
+font-size: 16px;
+line-height: 0.6666;
+letter-spacing: 4%;
+font-weight: medium;
 }
 
 .footer {
