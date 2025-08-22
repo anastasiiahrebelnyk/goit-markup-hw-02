@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
     line-height: 0.666;
@@ -14,7 +14,12 @@ ul,
 ol {
     list-style-type: none;
     padding-left: 0;
-    margin: 0;}
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
 
 
 a {
@@ -40,11 +45,16 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     text-transform: uppercase;
     text-decoration: none;
-    color: #2E2F42
+    color:#4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 3%
 }
 
 .logo-name {
-    color: #4D5AE5;
+    color:#2e2f42;
 }
 
 .nav {
@@ -76,14 +86,16 @@ h1 {
 
 .first-section-title {
     font-size: 56px;
-    line-height: 0.933;
-    letter-spacing: 2%;
+    line-height: 1.07;
+        letter-spacing: 2%;
+        text-align: center;
 }
 
 .second-section-title {
-    font-size: 36px;
-        line-height: 0.9;
+    font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 2%;
+        font-weight: 500;
 }
 
 .second-section-list-title {
@@ -93,10 +105,22 @@ h1 {
         font-weight: medium;
 }
 
-.third-section-title {
-    font-size: 20px;
-        line-height: 0.8333;
+.second-section-list-text {
+    line-height: 1.5;
         letter-spacing: 2%;
+        color: #434455;
+}
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+.third-section-title {
+    font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 2%;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .third-section-list-title {
@@ -105,27 +129,52 @@ h1 {
         letter-spacing: 2%;
 }
 
-.forth-section-title {
-    font-size: 36px;
-        line-height: 0.9;
+.third-section-text {
+    line-height: 1.5;
         letter-spacing: 2%;
+        color: #434455;
+}
+
+.forth-section-title {
+    font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 2%;
+        font-weight: 500
+}
+
+.third-section-list {
+    background-color: #FFFFFF;
 }
 
 .forth-section-list-title {
     font-size: 24px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 2%;
+        font-weight: 500;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .button {
 background-color:#4D5AE5;
 color: #FFFFFF;
 font-size: 16px;
-line-height: 0.6666;
+line-height: 1.5;
 letter-spacing: 4%;
+font-weight: 500;
+
 }
+
+.button:hover, .button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
 
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+}
+
+.logo-name-footer {
+  color:  #F4F4FD;
 }
