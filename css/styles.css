@@ -79,12 +79,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .address {
     text-decoration: none;
     list-style-type: none;
-    font-style: normal;
+    
 }
 
 .address-link:hover, .address-link:focus {
@@ -95,6 +96,9 @@ h1, h2, h3, h4, h5, h6 {
 {
     text-decoration: none;
     font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .first-section {
